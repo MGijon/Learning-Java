@@ -6,11 +6,11 @@
   -------
 
   OBS 2 : Solamente queremos que se muestre por pantalla el mensaje 'Hola Mundo', 
-  -------  para ello utilizaremos el método 'println' de la clase estática 
-           'System.out'
+  ------- para ello utilizaremos el método 'println' de la clase estática 
+          'System.out'
 
-  OBS 3: para compilar escribimos por consola 'javac HolaMundo.java', mientras que
-  -------  para ejecutar escribiremos 'java HolaMundo'
+  OBS 3 : para compilar escribimos por consola 'javac HolaMundo.java', mientras que
+  ------- para ejecutar escribiremos 'java HolaMundo'
 */
 
 public class HolaMundo {
