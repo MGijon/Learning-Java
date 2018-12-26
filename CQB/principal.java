@@ -73,7 +73,7 @@ public class principal{
 
     public void actionPerformed (ActionEvent e) {
       /* crea una nueva ventana */
-      JFrame frame3 = new JFrame("Ventana 3");
+      JFrame frame3 = new JFrame("Play window");
       frame3.setVisible(true);
       frame3.setSize(200,200);
 

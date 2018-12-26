@@ -12,6 +12,7 @@ public class Operator{
 
   /* Methods
      ======= */
+     /* Setters and getters */
   protected String getName(){
     return this.name;
   }
@@ -32,4 +33,5 @@ public class Operator{
     /* set value for the parametter vision_angle */
     this.vision_angle = x;
   }
+    /* Internal calculations */
 }
