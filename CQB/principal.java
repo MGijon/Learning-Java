@@ -1,7 +1,8 @@
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
-/* tengo que añadir aquí el resot de clases */
+/* tengo que añadir aquí el resto de clases */
+import Operator.java; /* no sé si está bien */
 
 public class principal{
 
