@@ -1,9 +1,10 @@
 public class Operator{
   /* Constructor
      =========== */
-  public Operator(String name, int team){
+  public Operator(String name, int team, int life){
     this.name = name;
     this.team = team;
+    this.life = life;
   }
 
   /* Atributtes
@@ -13,6 +14,12 @@ public class Operator{
   /* Methods
      ======= */
      /* Setters and getters */
+  public int getLife(){
+    return this.life;
+  }
+  public void setLife(int x){
+    this.life = x;
+  }
   protected String getName(){
     return this.name;
   }
@@ -33,5 +40,6 @@ public class Operator{
     /* set value for the parametter vision_angle */
     this.vision_angle = x;
   }
+
     /* Internal calculations */
 }
