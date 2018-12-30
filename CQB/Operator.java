@@ -1,10 +1,12 @@
 public class Operator{
   /* Constructor
      =========== */
-  public Operator(String name, int team, int life){
+  public Operator(String name, int team, int life, double consistency, double speed){
     this.name = name;
     this.team = team;
-    this.life = life;
+    this.life = life; /* 0-100 */
+    this.consistency = consistency; /* probabilidad de acierto 0-1 */
+    this.speed = speed; /* velocidad 0-1 */
   }
 
   /* Atributtes
@@ -14,6 +16,18 @@ public class Operator{
   /* Methods
      ======= */
      /* Setters and getters */
+  public double getConsistency(){
+    return this.consistency;
+  }
+  private void setConsistency(double x){
+    this.consistency = x;
+  }
+  public double getSpeed(){
+    return this.speed;
+  }
+  private void setSpeed(double x){
+    this.speed = x;
+  }
   public int getLife(){
     return this.life;
   }
