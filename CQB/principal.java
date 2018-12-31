@@ -2,12 +2,12 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 /* tengo que añadir aquí el resto de clases */
-import Operator.java; /* no sé si está bien */
 
 public class principal{
 
   public static void main (String[] args){
 
+    Operator oper = new Operator("test", 1, 100, 11.5, 90);
     /* creamos la ventana con nombre 'Scenario' */
     JFrame frame = new JFrame("Scenario");
     frame.setVisible(true);
