@@ -11,18 +11,24 @@ public class Operator{
 
   /* Constructor
      =========== */
-  public Operator(String name, int team, int life, double consistency, double speed){
+  public Operator(String name, int team, int life, double consistency, double speed, int position[]){
     this.name = name;
     this.team = team;
     this.life = life; /* 0-100 */
     this.consistency = consistency; /* probabilidad de acierto 0-1 */
     this.speed = speed; /* velocidad 0-1 */
+    this.position = position; /* (x, y) */
   }
-
 
   /* Methods
      ======= */
      /* Setters and getters */
+  public int[] getPosition(){
+    return position[];
+  }
+  private void setPosition(int pos[]){
+    this.position = pos;
+  }
   public double getConsistency(){
     return consistency;
   }

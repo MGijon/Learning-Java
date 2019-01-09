@@ -1,7 +1,12 @@
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
-/* tengo que añadir aquí el resto de clases */
+import java.awt.Graphics2D;
+import java.util.Random;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+
 
 public class principal{
 
@@ -34,6 +39,10 @@ public class principal{
     button.addActionListener (new Action3());
   }
 
+
+
+
+  /*                                            */
   static class Action1 implements ActionListener {
 
     public void actionPerformed (ActionEvent e) {
