@@ -69,4 +69,8 @@ public class Operator{
   }
 
     /* Internal calculations */
+  public void move(int x, int y){
+    this.position[1] = x;
+    this.position[2] = y;
+  }
 }
